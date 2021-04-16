@@ -19,7 +19,7 @@ render() {
                   <Title name='your' title='cart' />
                   <CartColumns />
                   <CartList value = {value} />
-                  <CartTotals value = {value} />
+                  <CartTotals value = {value} history={this.props.history} />
                 </React.Fragment>
               );
             }
